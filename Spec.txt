@@ -1,0 +1,9 @@
+
+
+1. We need to get rid of the sequences that has either a deletion, insertion, or both
+
+2. The final output file needs to have the following: Reads, Pct, Target, and label of what mutations were introduced
+
+3. Sequences at 10 Reads or below needs to be removed in the output file as well
+
+I've attached the sample NGS abundance excel sheet.
