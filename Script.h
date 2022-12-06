@@ -32,7 +32,7 @@ void readFile(ifstream& ins, ofstream& outs)
 	int reads = 0, indel = 0, sampleID = 1;
 	double pct = 0;
 
-	outs << "SampleID, Reads, PCT, t-SEQ\n";
+	outs << "SampleID, Reads, PCT, t-SEQ, Mutatations (1 to n)\n";
 
 	while (ins >> reads)
 	{
