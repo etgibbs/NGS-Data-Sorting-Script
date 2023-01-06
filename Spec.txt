@@ -6,4 +6,15 @@
 
 3. Sequences at 10 Reads or below needs to be removed in the output file as well
 
-I've attached the sample NGS abundance excel sheet.
+
+IMPROVEMENTS
+
+1. Get rid of sample ID, not needed, we can maybe place a new identifier instead (not sure what)
+
+2. Recalculate the PCT based on a new total (new total will now be the total reads of all variants present in the new output)
+
+3. Place mutations in one cell block (in an increasing order of mutation position), 
+   instead of multiple cells, allowing setting of filter conditions easier
+
+4. Provide a different output of what sequences were culled from the original sheet 
+   to do a sanity check ensuring only the weird sequences were removed 
